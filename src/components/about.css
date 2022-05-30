@@ -1,0 +1,64 @@
+.a {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	padding-top: 50px;
+}
+
+/* Left Part */
+.a-left {
+	flex: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 100%;
+}
+.a-card {
+	width: 60%;
+	height: 70vh;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	padding: 50px;
+}
+.a-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Right Part */
+.a-right {
+	flex: 3;
+	margin-right: 25px;
+}
+.a-title {
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 25px;
+	text-decoration: underline;
+}
+.a-desc {
+	font-size: 24px;
+}
+.connect:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+	.a {
+		flex-direction: column;
+		text-align: center;
+	}
+	.a-left {
+		display: none;
+	}
+	.a-right {
+		padding: 10px;
+	}
+	.a-title {
+		margin-top: 50px;
+	}
+}

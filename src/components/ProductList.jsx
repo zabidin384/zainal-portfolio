@@ -44,7 +44,7 @@ export default function ProductList() {
 				<div className="pl-item">
 					<img src={blog} alt="" className="pl-img" />
 					<div className="pl-name">My Blog</div>
-					<a href="https://https://zainal-blog.herokuapp.com//" target="_blank">
+					<a href="https://zainal-blog.herokuapp.com/" target="_blank">
 						<button className="pl-button">Demo</button>
 					</a>
 				</div>

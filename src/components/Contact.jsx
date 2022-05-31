@@ -25,7 +25,7 @@ export default function Contact() {
 							<div className="c-info-i">@zainal_tf</div>
 						</div>
 						<div className="c-info-item">
-							<a href="https://www.linkedin.com/in/zainal-tf/" className="linkedin">
+							<a href="https://www.linkedin.com/in/zainal-tf/" className="linkedin" target="_blank">
 								<FontAwesomeIcon icon={faLinkedin} />
 								<div className="c-info-i">Zainal Abidin</div>
 							</a>

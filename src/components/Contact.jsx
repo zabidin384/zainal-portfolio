@@ -13,25 +13,25 @@ export default function Contact() {
 					<div className="c-info">
 						<h1 className="c-title">Let's discuss your project</h1>
 						<div className="c-info-item">
-							<FontAwesomeIcon icon={faWhatsappSquare} />
+							<FontAwesomeIcon icon={faWhatsappSquare} style={{ color: "#2DD449" }} />
 							<div className="c-info-i">+62822 8509 6369 (WhatsApp)</div>
 						</div>
 						<div className="c-info-item">
-							<FontAwesomeIcon icon={faEnvelope} />
+							<FontAwesomeIcon icon={faEnvelope} className="email" style={{ color: "orange" }} />
 							<div className="c-info-i">zabidin384@gmail.com</div>
 						</div>
 						<div className="c-info-item">
-							<FontAwesomeIcon icon={faInstagramSquare} />
+							<FontAwesomeIcon icon={faInstagramSquare} style={{ color: "red" }} />
 							<div className="c-info-i">@zainal_tf</div>
 						</div>
 						<div className="c-info-item">
-							<a href="https://www.linkedin.com/in/zainal-tf/" className="linkedin" target="_blank">
-								<FontAwesomeIcon icon={faLinkedin} />
+							<a href="https://www.linkedin.com/in/zainal-tf/" className="linkedin" target="_blank" rel="noreferrer">
+								<FontAwesomeIcon icon={faLinkedin} className="linkedIn" />
 								<div className="c-info-i">Zainal Abidin</div>
 							</a>
 						</div>
 						<div className="c-info-item">
-							<FontAwesomeIcon icon={faLocationDot} />
+							<FontAwesomeIcon icon={faLocationDot} style={{ color: "green" }} />
 							<div className="c-info-i">Pangkalan Kerinci, Pelalawan Regency, Riau Province, Indonesia</div>
 						</div>
 					</div>

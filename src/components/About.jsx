@@ -15,7 +15,7 @@ export default function About() {
 					Hello, my name is Zainal Abidin, I am a Web Developer. I graduated from Engineering Physics of Gadjah Mada University on 2021.
 					<br /> <br />
 					My main stack technology is{" "}
-					<a href="https://www.mongodb.com/mern-stack" target="_blank" className="connect">
+					<a href="https://www.mongodb.com/mern-stack" target="_blank" rel="noreferrer" className="connect">
 						<b>MERN (MongoDB, ExpressJs, ReactJs, and NodeJS).</b>
 					</a>
 					<br /> <br />

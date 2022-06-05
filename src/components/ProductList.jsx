@@ -16,45 +16,38 @@ export default function ProductList() {
 				<div className="pl-item">
 					<img src={quiz} alt="" className="pl-img" />
 					<div className="pl-name">Who Wants to Be a Millionaire!</div>
-					<a href="https://zainal-quiz.vercel.app/" target="_blank">
+					<a href="https://zainal-quiz.vercel.app/" target="_blank" rel="noreferrer">
 						<button className="pl-button">Demo</button>
 					</a>
 				</div>
 				<div className="pl-item">
 					<img src={candycrush} alt="" className="pl-img" />
 					<div className="pl-name">Candy Crush Game</div>
-					<a href="https://zainal-candycrush.vercel.app/" target="_blank">
+					<a href="https://zainal-candycrush.vercel.app/" target="_blank" rel="noreferrer">
 						<button className="pl-button">Demo</button>
 					</a>
 				</div>
 				<div className="pl-item">
 					<img src={zainal2048game} alt="" className="pl-img" />
 					<div className="pl-name">2048 Game</div>
-					<a href="https://zainal-2048.vercel.app/" target="_blank">
+					<a href="https://zainal-2048.vercel.app/" target="_blank" rel="noreferrer">
 						<button className="pl-button">Demo</button>
 					</a>
 				</div>
 				<div className="pl-item">
 					<img src={flagsgame} alt="" className="pl-img" />
 					<div className="pl-name">Flags Memory Game</div>
-					<a href="https://flagsmemorygame.vercel.app/" target="_blank">
+					<a href="https://flagsmemorygame.vercel.app/" target="_blank" rel="noreferrer">
 						<button className="pl-button">Demo</button>
 					</a>
 				</div>
 				<div className="pl-item">
 					<img src={blog} alt="" className="pl-img" />
 					<div className="pl-name">My Blog</div>
-					<a href="https://zainal-blog.herokuapp.com/" target="_blank">
+					<a href="https://https://zainal-blog.herokuapp.com//" target="_blank" rel="noreferrer">
 						<button className="pl-button">Demo</button>
 					</a>
 				</div>
-				{/* <div className="pl-item">
-					<img src={quiz} alt="" className="pl-img" />
-					<div className="pl-name">Pizza Delivery</div>
-					<a href="https://flagsmemorygame.vercel.app/" target="_blank">
-						<button className="pl-button">Demo</button>
-					</a>
-				</div> */}
 			</div>
 		</div>
 	);

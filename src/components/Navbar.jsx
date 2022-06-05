@@ -1,13 +1,8 @@
-import { useContext } from "react";
-import { ThemeContext } from "../context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faCircleInfo, faClipboardCheck, faDesktop, faPhone } from "@fortawesome/free-solid-svg-icons";
 import "./navbar.css";
 
 export default function Navbar() {
-	const theme = useContext(ThemeContext);
-	const darkMode = theme.state.darkMode;
-
 	return (
 		<div className="n">
 			<div className="n-item">

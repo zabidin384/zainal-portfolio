@@ -1,11 +1,20 @@
 .s {
-	height: 100vh;
-	padding-top: 100px;
+	height: auto;
+	padding-top: 50px;
 }
 .s-wrapper {
 	margin: 0 100px;
 	border-radius: 15px;
 	padding: 15px;
+}
+.s p {
+	font-size: 24px;
+	margin-top: 20px;
+	text-align: center;
+}
+.linkedIn {
+	color: #0077b5;
+	display: inline;
 }
 .s-title {
 	font-size: 45px;
@@ -16,7 +25,7 @@
 .s-skills {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 .s-item {
 	padding: 15px;

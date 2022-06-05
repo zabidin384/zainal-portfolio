@@ -1,6 +1,5 @@
 .c {
 	height: 100vh;
-	/* background: url("../img/study.png") no-repeat center; */
 }
 .c-bg {
 	width: 30px;
@@ -12,6 +11,8 @@
 	padding: 50px 25px 0px 50px;
 	display: flex;
 }
+
+/* Left Side */
 .c-left {
 	flex: 45%;
 	display: flex;
@@ -25,21 +26,6 @@
 	opacity: 0.5;
 	text-decoration: underline;
 }
-
-.c-right {
-	padding-top: 50px;
-	flex: 55%;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	flex-wrap: wrap;
-	height: 90vh;
-	position: relative;
-}
-.c-right img {
-	height: 275px;
-}
-
 .c-title {
 	font-size: 45px;
 	width: 80%;
@@ -55,12 +41,21 @@
 .c-info-i {
 	margin-left: 10px;
 }
-.c-icon {
-	width: 30px;
-	height: 30px;
-	margin-right: 20px;
-}
 
+/* Right Side */
+.c-right {
+	padding-top: 50px;
+	flex: 55%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 90vh;
+	position: relative;
+}
+.c-right img {
+	height: 275px;
+}
 .c-desc {
 	font-size: 32px;
 	font-weight: lighter;

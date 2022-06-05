@@ -14,7 +14,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="h-cv">
-						<a href="https://www.tinyurl.com/cv-zainal" target="_blank">
+						<a href="https://www.tinyurl.com/cv-zainal" target="_blank" rel="noreferrer">
 							<button>Download My CV</button>
 						</a>
 					</div>

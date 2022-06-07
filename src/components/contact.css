@@ -79,6 +79,7 @@
 	.c-title {
 		font-size: 30px;
 		font-weight: bold;
+                margin-top: 25px;
 	}
 	.c-info-item {
 		margin: 20px 0;

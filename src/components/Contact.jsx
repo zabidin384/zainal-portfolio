@@ -27,7 +27,7 @@ export default function Contact() {
 						<div className="c-info-item">
 							<a href="https://github.com/zabidin384" target="_blank" rel="noreferrer" style={{ display: "flex" }}>
 								<FontAwesomeIcon icon={faGithubSquare} style={{ color: "slategray" }} />
-								<div className="c-info-i">@zabidin384</div>
+								<div className="c-info-i">zabidin384</div>
 							</a>
 						</div>
 						<div className="c-info-item">

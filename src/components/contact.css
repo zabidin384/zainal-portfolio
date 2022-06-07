@@ -75,6 +75,7 @@
 		flex-direction: column;
 		padding: 0 10px 0 50px;
 	}
+        .c-right { display: none};
 	.c-title {
 		font-size: 30px;
 		font-weight: bold;

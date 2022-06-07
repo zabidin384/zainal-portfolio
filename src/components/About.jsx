@@ -4,7 +4,6 @@ import profile from "../img/profile.jpg";
 export default function About() {
 	return (
 		<div className="a" id="about">
-			<div className="a-wrapper">
 			<div className="a-left">
 				<div className="a-card">
 					<img src={profile} alt="" className="a-img" />
@@ -27,7 +26,6 @@ export default function About() {
 					<br /> <br />
 					So, what are you waiting for? Please <a href="#contact">contact</a> me right now!
 				</div>
-			</div>
 			</div>
 		</div>
 	);

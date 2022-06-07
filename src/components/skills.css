@@ -50,6 +50,10 @@
 	.s {
 		height: 100%;
 	}
+	.s-wrapper {
+		margin: 0 15px;
+		padding: 0px;
+	}
 	.s-title {
 		margin-bottom: 20px;
 	}

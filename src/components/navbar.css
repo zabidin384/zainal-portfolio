@@ -31,3 +31,14 @@ a {
 		display: none;
 	}
 }
+
+@media screen and (max-width: 811px) {
+	.n {
+		left: 15vw;
+		right: 15vw;
+	}
+	.n-item {
+		font-size: 20px;
+	}
+}
+

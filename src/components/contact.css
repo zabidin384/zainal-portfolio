@@ -67,19 +67,55 @@
 
 @media screen and (max-width: 480px) {
 	.c {
-		height: auto;
-		padding-bottom: 25px;
-                flex-direction: column;
+		height: 100%;
+		margin-bottom: 50px;
 	}
 	.c-wrapper {
 		flex-direction: column;
-		padding: 0 10px 0 50px;
+		padding: 20px;
 	}
-        .c-right { display: none};
 	.c-title {
-		font-size: 30px;
+		font-size: 32px;
 		font-weight: bold;
-                margin-top: 25px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.c-info-item {
+		margin: 20px 0;
+		width: 100%;
+		font-size: 20px;
+	}
+	form {
+		margin-top: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	input {
+		width: 35%;
+		height: 40px;
+		margin: 10px;
+		margin-left: 0;
+	}
+	.c-right {
+		display: none;
+	}
+	.c-bg {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 811px) {
+	.c {
+		height: 100%;
+	}
+	.c-wrapper {
+		flex-direction: column;
+		padding-top: 25px;
+	}
+	.c-title {
+		font-weight: bold;
+		width: 100%;
+		margin-bottom: 20px;
 	}
 	.c-info-item {
 		margin: 20px 0;
@@ -95,9 +131,5 @@
 		height: 40px;
 		margin: 10px;
 		margin-left: 0;
-	}
-	button {
-		margin-top: 10px;
-		padding: 5px;
 	}
 }

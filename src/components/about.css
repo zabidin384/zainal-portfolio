@@ -51,15 +51,46 @@
 	.a {
 		flex-direction: column;
 		text-align: center;
-                height: auto;
+		padding-top: 0;
+	}
+	.a-wrapper {
+		margin: 20px;
 	}
 	.a-left {
 		display: none;
 	}
 	.a-right {
-		padding: 10px;
+		margin-right: 0;
 	}
 	.a-title {
 		margin-top: 50px;
+	}
+	.a-desc {
+		font-size: 18px;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 811px) {
+	.a {
+		height: 100%;
+		flex-direction: column;
+		text-align: center;
+		padding-top: 0;
+	}
+	.a-wrapper {
+		margin: 20px;
+	}
+	.a-left {
+		display: none;
+	}
+	.a-right {
+		margin-right: 0;
+	}
+	.a-title {
+		margin-top: 50px;
+	}
+	.a-desc {
+		text-align: left;
 	}
 }

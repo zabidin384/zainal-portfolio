@@ -67,8 +67,9 @@
 
 @media screen and (max-width: 480px) {
 	.c {
-		height: 100%;
+		height: auto;
 		padding-bottom: 25px;
+                flex-direction: column;
 	}
 	.c-wrapper {
 		flex-direction: column;

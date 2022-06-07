@@ -36,6 +36,7 @@ export default function Skills() {
 						<FontAwesomeIcon icon={faLinkedin} className="linkedIn" />
 					</a>
 				</p>
+				<div className="s-skills-wrapper">
 				<div className="s-skills">
 					<div className="s-item">
 						<img src={html} alt="" className="s-img" />
@@ -113,6 +114,7 @@ export default function Skills() {
 						<img src={replit} alt="" className="s-img" />
 						<div className="s-name">Replit</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>

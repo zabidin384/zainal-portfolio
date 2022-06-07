@@ -59,4 +59,9 @@
 		font-weight: bold;
 		margin-top: 75px;
 	}
+	.pl-desc {
+		font-size: 18px;
+		margin: 25px 10px;
+		text-align: left;
+	}
 }

@@ -38,6 +38,10 @@
 	margin: 20px 0;
 	font-size: 24px;
 }
+.c-info-item a {
+	display: flex;
+	align-items: center;
+}
 .c-info-i {
 	margin-left: 10px;
 }

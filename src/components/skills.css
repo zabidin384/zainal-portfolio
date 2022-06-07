@@ -52,12 +52,14 @@
 	}
 	.s-wrapper {
 		margin: 0;
-		margin: 0 75px;
+		margin: 0 50px;
 	}
 	.s-title {
 		font-size: 24px;
 		margin-bottom: 20px;
 	}
+
+        .s p { font-size: 16 px; }
 	.s-skills {
 		flex-wrap: wrap;
 		margin-top: 0;

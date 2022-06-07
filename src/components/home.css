@@ -84,9 +84,6 @@
 		text-align: center;
 		height: 100%;
 	}
-	.h-intro {
-		margin-top: 25px;
-	}
 	.h-name {
 		font-size: 45px;
 	}
@@ -95,12 +92,40 @@
 	}
 	.h-title-item {
 		justify-content: center;
-		font-size: 24px;
+		font-size: 18px;
 	}
 	.h-desc {
-		margin-top: 25px;
+		font-size: 24px;
 	}
 	.h-bg {
 		display: none;
+	}
+	.h-right {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 811px) {
+	.h {
+		height: 100%;
+		margin-top: 50px;
+	}
+	.h-left-wrapper {
+		padding: 10px;
+		padding-bottom: 0;
+		text-align: center;
+		height: 100%;
+	}
+	.h-title {
+		margin-bottom: 25px;
+	}
+	.h-title-item {
+		justify-content: center;
+	}
+	.h-cv button {
+		margin-top: 15px;
+	}
+	.h-desc {
+		margin-top: 25px;
 	}
 }

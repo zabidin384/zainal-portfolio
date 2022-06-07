@@ -1,7 +1,7 @@
 import "./contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faWhatsappSquare, faInstagramSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsappSquare, faInstagramSquare, faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import meeting from "../img/meeting.png";
 
 export default function Contact() {
@@ -23,6 +23,12 @@ export default function Contact() {
 						<div className="c-info-item">
 							<FontAwesomeIcon icon={faInstagramSquare} style={{ color: "red" }} />
 							<div className="c-info-i">@zainal_tf</div>
+						</div>
+						<div className="c-info-item">
+							<a href="https://github.com/zabidin384" target="_blank" rel="noreferrer" style={{ display: "flex" }}>
+								<FontAwesomeIcon icon={faGithubSquare} style={{ color: "slategray" }} />
+								<div className="c-info-i">@zabidin384</div>
+							</a>
 						</div>
 						<div className="c-info-item">
 							<a href="https://www.linkedin.com/in/zainal-tf/" className="linkedin" target="_blank" rel="noreferrer">

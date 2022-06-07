@@ -1,10 +1,15 @@
+import "./navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faCircleInfo, faClipboardCheck, faDesktop, faPhone } from "@fortawesome/free-solid-svg-icons";
-import "./navbar.css";
+import { useContext } from "react";
+import { ThemeContext } from "../context";
 
 export default function Navbar() {
+	const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
+
 	return (
-		<div className="n">
+		<div className="n" style={{ backgroundColor: darkMode ? "#222" : "white", color: darkMode && "white" }}>
 			<div className="n-item">
 				<a href="#home">
 					<FontAwesomeIcon icon={faHouse} size="sm" /> Home

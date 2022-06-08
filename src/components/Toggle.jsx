@@ -1,6 +1,4 @@
 import "./toggle.css";
-import Sun from "../img/sun.png";
-import Moon from "../img/moon.png";
 import { useContext } from "react";
 import { ThemeContext } from "../context";
 
@@ -12,8 +10,8 @@ export default function Toggle() {
 
 	return (
 		<div className="t">
-			<img src={Sun} alt="" className="t-icon" />
-			<img src={Moon} alt="" className="t-icon" />
+			<img src="images/sun.png" alt="" />
+			<img src="images/moon.png" alt="" />
 			<div className="t-button" onClick={handleClick} style={{ left: theme.state.darkMode ? -3 : 26 }}></div>
 		</div>
 	);

@@ -9,7 +9,7 @@ export default function Skills() {
 	const darkMode = theme.state.darkMode;
 
 	return (
-		<div className="s" id="skills">
+		<div id="skills">
 			<div className="s-wrapper" style={{ backgroundColor: darkMode && "white", color: darkMode && "#222" }}>
 				<div className="s-title">My Skills</div>
 				<p>

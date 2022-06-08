@@ -1,4 +1,4 @@
-.s {
+#skills {
 	height: auto;
 	padding-top: 50px;
 }
@@ -7,14 +7,12 @@
 	border-radius: 15px;
 	padding: 15px;
 }
+
+/* Title and Description */
 .s p {
 	font-size: 24px;
-	margin-top: 20px;
+	margin: 30px 0;
 	text-align: center;
-}
-.linkedIn {
-	color: #0077b5;
-	display: inline;
 }
 .s-title {
 	font-size: 45px;
@@ -22,6 +20,8 @@
 	text-align: center;
 	text-decoration: underline;
 }
+
+/* List of Skills */
 .s-skills {
 	display: flex;
 	justify-content: space-between;
@@ -35,7 +35,7 @@
 	background-color: lightgray;
 	border-radius: 15px;
 }
-.s-img {
+.s-item img {
 	height: 100px;
 	width: 100%;
 	object-fit: contain;
@@ -47,7 +47,7 @@
 }
 
 @media screen and (max-width: 480px) {
-	.s {
+	#skills {
 		height: 100%;
 	}
 	.s-wrapper {

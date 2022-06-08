@@ -9,21 +9,15 @@
 	border-radius: 10px;
 	left: 25vw;
 	right: 25vw;
+	background-color: white;
 }
-
 .n-item {
 	font-size: 24px;
 	font-weight: bold;
 }
-
 .n-item:hover {
 	opacity: 0.5;
 	cursor: pointer;
-}
-
-a {
-	color: inherit;
-	text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -41,4 +35,3 @@ a {
 		font-size: 20px;
 	}
 }
-

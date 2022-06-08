@@ -72,6 +72,7 @@
 @media screen and (max-width: 480px) {
 	#home {
 		flex-direction: column;
+		height: 100vh;
 	}
 	.h-left-wrapper {
 		padding: 10px;

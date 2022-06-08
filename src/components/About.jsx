@@ -1,21 +1,21 @@
 import "./about.css";
-import profile from "../img/profile.jpg";
 
 export default function About() {
 	return (
-		<div className="a" id="about">
+		<div id="about">
 			<div className="a-left">
 				<div className="a-card">
-					<img src={profile} alt="" className="a-img" />
+					<img src="images/profile.png" alt="" />
 				</div>
 			</div>
 			<div className="a-right">
 				<div className="a-title">About Me</div>
 				<div className="a-desc">
-					Hello, my name is Zainal Abidin, I am a Web Developer. I graduated from Engineering Physics of Gadjah Mada University on 2021.
+					I am a JavaScript programmer who is familiar with React Js, Next Js, and Vue Js frameworks. I graduated from Engineering Physics of Gadjah
+					Mada University.
 					<br /> <br />
 					My main stack technology is{" "}
-					<a href="https://www.mongodb.com/mern-stack" target="_blank" rel="noreferrer" className="connect">
+					<a href="https://www.mongodb.com/mern-stack" target="_blank" rel="noreferrer">
 						<b>MERN (MongoDB, ExpressJs, ReactJs, and NodeJS).</b>
 					</a>
 					<br /> <br />

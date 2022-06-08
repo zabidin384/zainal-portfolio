@@ -3,7 +3,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import ProductList from "./components/ProductList";
+import Portfolio from "./components/portfolio";
 import Skills from "./components/Skills";
 import Toggle from "./components/Toggle";
 import { ThemeContext } from "./context";
@@ -19,7 +19,7 @@ const App = () => {
 			<Home />
 			<About />
 			<Skills />
-			<ProductList />
+			<Portfolio />
 			<Contact />
 		</div>
 	);

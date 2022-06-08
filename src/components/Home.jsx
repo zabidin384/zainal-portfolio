@@ -1,9 +1,8 @@
 import "./home.css";
-import Me from "../img/me.png";
 
 export default function Home() {
 	return (
-		<div className="h" id="home">
+		<div id="home">
 			<div className="h-left">
 				<div className="h-left-wrapper">
 					<h2 className="h-intro">Hello, My name is</h2>
@@ -26,7 +25,7 @@ export default function Home() {
 			</div>
 			<div className="h-right">
 				<div className="h-bg"></div>
-				<img src={Me} alt="" className="h-img" />
+				<img src="images/me.png" alt="" />
 			</div>
 		</div>
 	);

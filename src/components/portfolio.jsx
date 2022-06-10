@@ -9,6 +9,27 @@ export default function Portfolio() {
 			</div>
 			<div className="pl-list">
 				<div className="pl-item">
+					<img src="images/projects/infimech.jpg" alt="infimech" />
+					<div className="pl-name">Infimech</div>
+					<a href="https://eng.infimech.co.id/" target="_blank" rel="noreferrer">
+						<button>Demo</button>
+					</a>
+				</div>
+				<div className="pl-item">
+					<img src="images/projects/survey.jpg" alt="" />
+					<div className="pl-name">Survey Website</div>
+					<a href="https://zainal-survey.vercel.app/" target="_blank" rel="noreferrer">
+						<button>Demo</button>
+					</a>
+				</div>
+				<div className="pl-item">
+					<img src="images/projects/zainal-blog.jpg" alt="" />
+					<div className="pl-name">My Blog</div>
+					<a href="https://https://zainal-blog.herokuapp.com//" target="_blank" rel="noreferrer">
+						<button>Demo</button>
+					</a>
+				</div>
+				<div className="pl-item">
 					<img src="images/projects/zainal-quiz.jpg" alt="" />
 					<div className="pl-name">Who Wants to Be a Millionaire!</div>
 					<a href="https://zainal-quiz.vercel.app/" target="_blank" rel="noreferrer">
@@ -33,13 +54,6 @@ export default function Portfolio() {
 					<img src="images/projects/zainal-flagsmemorygame.jpg" alt="" />
 					<div className="pl-name">Flags Memory Game</div>
 					<a href="https://flagsmemorygame.vercel.app/" target="_blank" rel="noreferrer">
-						<button>Demo</button>
-					</a>
-				</div>
-				<div className="pl-item">
-					<img src="images/projects/zainal-blog.jpg" alt="" />
-					<div className="pl-name">My Blog</div>
-					<a href="https://https://zainal-blog.herokuapp.com//" target="_blank" rel="noreferrer">
 						<button>Demo</button>
 					</a>
 				</div>

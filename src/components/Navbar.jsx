@@ -1,6 +1,6 @@
 import "./navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faCircleInfo, faClipboardCheck, faDesktop, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faCircleInfo, faClipboardCheck, faBriefcase, faDesktop, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { useContext } from "react";
 import { ThemeContext } from "../context";
 
@@ -23,6 +23,11 @@ export default function Navbar() {
 			<div className="n-item">
 				<a href="#skills">
 					<FontAwesomeIcon icon={faClipboardCheck} size="sm" /> Skills
+				</a>
+			</div>
+			<div className="n-item">
+				<a href="#experiences">
+					<FontAwesomeIcon icon={faBriefcase} size="sm" /> Experiences
 				</a>
 			</div>
 			<div className="n-item">

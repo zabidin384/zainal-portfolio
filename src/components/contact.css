@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 480px) {
 	#contact {
-		height: 100%;
+		height: fit-content;
 		margin-bottom: 50px;
 	}
 	.c-wrapper {
@@ -92,11 +92,10 @@
 
 @media screen and (max-width: 811px) {
 	#contact {
-		height: auto;
+		height: fit-content;
 	}
 	.c-wrapper {
 		flex-direction: column;
-		margin: 50px 0;
 	}
 	.c-title {
 		font-weight: bold;
@@ -108,9 +107,6 @@
 		width: 100%;
 	}
 	.c-right {
-		display: none;
-	}
-	.c-bg {
 		display: none;
 	}
 }

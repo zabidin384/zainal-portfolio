@@ -1,0 +1,124 @@
+#experiences {
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.timeline-title {
+	font-size: 45px;
+	font-weight: 700;
+	text-decoration: underline;
+	margin: 10px;
+}
+.timeline-date {
+	font-size: 32px;
+	font-weight: bold;
+	color: midnightblue;
+}
+.timeline-place {
+	text-decoration: underline;
+	color: #bbb;
+	font-size: 20px;
+}
+.timeline-desc {
+	text-align: start;
+	font-size: 20px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.timeline::after {
+	content: "";
+	position: absolute;
+	width: 8px;
+	background-color: darkgray;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+}
+/* Container around content */
+.container {
+	padding: 10px 5px;
+	position: relative;
+	background-color: inherit;
+	width: 70%;
+}
+/* The circles on the timeline */
+.container::after {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: -17px;
+	background-color: steelblue;
+	border: 4px solid midnightblue;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+}
+/* Place the container to the left */
+.left {
+	left: -20%;
+}
+/* Place the container to the right */
+.right {
+	left: 50%;
+}
+/* Fix the circle for containers on the right side */
+.right::after {
+	left: -16px;
+}
+/* The actual content */
+.content {
+	padding: 20px 30px;
+	background-color: lightslategrey;
+	position: relative;
+	border-radius: 6px;
+}
+
+@media screen and (max-width: 811px) {
+	.container {
+		width: 350px;
+	}
+	.left {
+		left: -50%;
+	}
+	.timeline::after {
+		left: 50%;
+	}
+	.timeline-place {
+		font-size: 16px;
+	}
+	.timeline-desc {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.timeline-place {
+		font-size: 16px;
+	}
+	.timeline-desc {
+		font-size: 18px;
+	}
+	.timeline::after {
+		left: 2.5%;
+	}
+	.container::after {
+		right: 92.5%;
+	}
+	.right::after {
+		left: -7px;
+	}
+	.container {
+		left: 0%;
+	}
+}

@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/portfolio";
 import Skills from "./components/Skills";
+import Timeline from "./components/Timeline";
 import Toggle from "./components/Toggle";
 import { ThemeContext } from "./context";
 
@@ -19,6 +20,7 @@ const App = () => {
 			<Home />
 			<About />
 			<Skills />
+			<Timeline />
 			<Portfolio />
 			<Contact />
 		</div>

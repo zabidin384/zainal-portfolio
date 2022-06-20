@@ -25,7 +25,7 @@ export default function Portfolio() {
 				<div className="pl-item">
 					<img src="images/projects/zainal-blog.jpg" alt="" />
 					<div className="pl-name">My Blog</div>
-					<a href="https://zainal-blog.herokuapp.com//" target="_blank" rel="noreferrer">
+					<a href="https://zainal-blog.herokuapp.com/" target="_blank" rel="noreferrer">
 						<button>Demo</button>
 					</a>
 				</div>

@@ -22,6 +22,7 @@ export default function Portfolio() {
 						<button>Demo</button>
 					</a>
 				</div>
+				{/*
 				<div className="pl-item">
 					<img src="images/projects/zainal-blog.jpg" alt="" />
 					<div className="pl-name">My Blog</div>
@@ -29,6 +30,7 @@ export default function Portfolio() {
 						<button>Demo</button>
 					</a>
 				</div>
+				*/}
 				<div className="pl-item">
 					<img src="images/projects/zainal-quiz.jpg" alt="" />
 					<div className="pl-name">Who Wants to Be a Millionaire!</div>

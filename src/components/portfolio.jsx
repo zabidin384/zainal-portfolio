@@ -16,6 +16,20 @@ export default function Portfolio() {
 					</a>
 				</div>
 				<div className="pl-item">
+					<img src="images/projects/hospital.jpg" alt="" />
+					<div className="pl-name">Hospital</div>
+					<a href="https://zainal-hospital.vercel.app/login" target="_blank" rel="noreferrer">
+						<button>Demo</button>
+					</a>
+				</div>
+				<div className="pl-item">
+					<img src="images/projects/kotama.jpg" alt="" />
+					<div className="pl-name">Kotama App</div>
+					<a href="https://kotama.vercel.app/" target="_blank" rel="noreferrer">
+						<button>Demo</button>
+					</a>
+				</div>
+				<div className="pl-item">
 					<img src="images/projects/survey.jpg" alt="" />
 					<div className="pl-name">Survey Website</div>
 					<a href="https://zainal-survey.vercel.app/" target="_blank" rel="noreferrer">
